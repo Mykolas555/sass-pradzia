@@ -1,0 +1,17 @@
+nav {
+    background-color: rgb(5, 34, 81);
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            a{
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                &:hover{
+                    color: rgb(199, 195, 227);
+                }
+            }
+        }
+    }
+}

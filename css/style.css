@@ -1,0 +1,14 @@
+nav {
+  background-color: #052251; }
+  nav ul {
+    display: flex;
+    justify-content: space-between; }
+    nav ul li {
+      list-style: none; }
+      nav ul li a {
+        color: white;
+        text-decoration: none; }
+        nav ul li a:hover {
+          color: #c7c3e3; }
+
+/*# sourceMappingURL=style.css.map */
