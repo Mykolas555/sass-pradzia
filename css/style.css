@@ -1,13 +1,27 @@
+.button, nav ul li a {
+  border-radius: 10px;
+  background-color: darkorange;
+  color: black;
+  padding: 10px; }
+
+h1 {
+  font-size: 200px; }
+
 nav {
-  background-color: #052251; }
+  background-color: crimson; }
   nav ul {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     justify-content: space-between; }
     nav ul li {
       list-style: none; }
       nav ul li a {
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        background: #0a0909; }
         nav ul li a:hover {
           color: #c7c3e3; }
 

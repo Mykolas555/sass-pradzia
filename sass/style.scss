@@ -1,13 +1,25 @@
+@import "var";
+@import "button";
+@import "mixins/card";
+
+h1{ 
+    font-size: $h1Font-size;
+}
+
 nav {
-    background-color: rgb(5, 34, 81);
+    background-color: crimson;
     ul{
+        @include card(300px, 20px, 10px, 10px);
         display: flex;
         justify-content: space-between;
         li {
             list-style: none;
+            
             a{
                 color: rgb(255, 255, 255);
                 text-decoration: none;
+                background: $aaaaa;
+                @extend .button;
                 &:hover{
                     color: rgb(199, 195, 227);
                 }
